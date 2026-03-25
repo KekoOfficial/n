@@ -1,0 +1,4 @@
+TOKEN = "TU_TOKEN_AQUI"
+
+DOWNLOAD_PATH = "downloads/"
+MAX_PARTS = 10
