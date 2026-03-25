@@ -1,6 +1,11 @@
+import sys
+import os
+
+# 🔥 Asegura que Python encuentre modules
+sys.path.append(os.path.dirname(os.path.abspath(__file__)))
+
 import asyncio
 from telegram.ext import ApplicationBuilder, MessageHandler, filters
-
 from config import TOKEN
 from core.worker import worker
 from modules.handlers.command_handler import manejar_comando
